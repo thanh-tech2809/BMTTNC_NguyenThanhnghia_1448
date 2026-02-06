@@ -5,6 +5,7 @@ def tinh_tong_so_chan(lst):
             tong += num
     return tong
 
+
 input_list = input("Nhập danh sách các số, cách nhau bằng dấu phẩy: ")
 numbers = list(map(int, input_list.split(',')))
 
